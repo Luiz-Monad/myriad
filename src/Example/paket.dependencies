@@ -1,0 +1,22 @@
+version 5.203.2
+
+group Example
+    frameworks: netcoreapp3.0
+    storage: none
+
+    source ../Myriad/bin/debug
+    nuget Myriad version 0.2.4
+
+    source ../Myriad.Sdk/bin/debug
+    nuget Myriad.Sdk version 0.2.4
+    
+    source ../Myriad.Core/bin/debug
+    nuget Myriad.Core version 0.2.4
+    
+    source ../../test/Myriad.Plugins.Example1/bin/debug
+    nuget Myriad.Plugins.Example1 version 0.2.4
+
+    source https://www.nuget.org/api/v2
+    nuget FSharp.Compiler.Service
+    nuget FSAst
+    nuget Fantomas

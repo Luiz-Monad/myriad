@@ -1,0 +1,3 @@
+group ExampleWithPlugin
+    Myriad.Sdk
+    Myriad.Plugins.Example1
